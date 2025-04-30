@@ -20,7 +20,7 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "itube_database"
                 )
-                    .fallbackToDestructiveMigration() // ✅ Important!
+                    .fallbackToDestructiveMigration()
                     .build()
                     .also { INSTANCE = it }
             }

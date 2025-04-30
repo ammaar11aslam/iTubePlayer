@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.demo.itubeplayer">
 
-    <!-- Required for YouTube/WebView -->
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -21,7 +21,7 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" />
 
-        <!-- Set LoginActivity as launcher -->
+
         <activity
             android:name=".LoginActivity"
             android:exported="true">

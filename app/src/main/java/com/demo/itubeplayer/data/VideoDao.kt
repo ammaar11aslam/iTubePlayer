@@ -12,5 +12,5 @@ interface VideoDao {
     suspend fun getAllVideos(): List<VideoEntity>
 
     @Delete
-    suspend fun delete(video: VideoEntity) // ✅ This must exist for PlaylistActivity long press
+    suspend fun delete(video: VideoEntity)
 }

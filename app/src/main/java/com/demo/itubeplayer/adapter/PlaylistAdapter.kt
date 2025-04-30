@@ -31,11 +31,11 @@ class PlaylistAdapter(
         holder.binding.tvVideoUrl.text = video.url
 
         holder.binding.tvVideoUrl.setOnClickListener {
-            onClick(video) // ✅ pass full object
+            onClick(video) //
         }
 
         holder.binding.tvVideoUrl.setOnLongClickListener {
-            onLongClick(video) // ✅ pass full object
+            onLongClick(video) //
             true
         }
     }

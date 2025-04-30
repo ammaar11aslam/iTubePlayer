@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ITubePlayer</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="itube_video_player">iTube Video Player</string>
+    <string name="enter_youtube_url">Enter YouTube URL</string>
+    <string name="play">Play</string>
+    <string name="logout">Logout</string>
+</resources>
